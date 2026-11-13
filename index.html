@@ -109,7 +109,7 @@ header img{border:2px solid #e4b16d;border-radius:16px}
 header strong{font-size:28px;font-weight:800}header small{font-size:15px;color:#d6d9f0}
 .settings-btn{margin-left:auto;min-width:48px;min-height:48px;border-radius:50%;background:#2e4266bb;color:#d4dcff;font-size:29px;border:1px solid #8593ba66;padding:0}
 main{padding-top:0}
-body:has(#home:not(.hidden)){background:linear-gradient(#19294b33,#0e213dcc),url('./kb403_crane_reference_background.jpg') center top/cover fixed no-repeat}
+body:has(#home:not(.hidden)){background:linear-gradient(#19294b33,#0e213dcc),url('./8E1AE8CB-02F2-4D45-9CCC-91878FADACEA.jpeg') center top/cover fixed no-repeat}
 body:has(#home:not(.hidden)) header{background:transparent}
 .landing{min-height:calc(100svh - 100px);display:flex;flex-direction:column;gap:18px;padding-bottom:20px}
 .landing-space{height:clamp(150px,29vh,320px);flex-shrink:0}
@@ -129,8 +129,7 @@ body:has(#home:not(.hidden)) header{background:transparent}
 #flow .secondary,#settings .secondary{background:#86cce9;color:#1c3545}
 @media(max-height:720px){.landing-space{height:19vh}.landing{gap:12px}.landing-panel{padding:15px}.quick-nav button{min-height:86px}}
 
-/* v13: reference-composition mobile rebuild */
-body:has(#home:not(.hidden)){background:#101e34!important;background-image:linear-gradient(180deg,transparent 0%,#14233a 61%,#101d30 100%),url('./kb403_crane_reference_background.jpg')!important;background-position:center top,center 76px!important;background-size:100% 100%,100% auto!important;background-repeat:no-repeat!important;background-attachment:scroll!important}
+/* mobile layout */
 body:has(#home:not(.hidden)) header{background:transparent!important}
 body:has(#home:not(.hidden)) main{padding:0 16px calc(24px + env(safe-area-inset-bottom));}
 body:has(#home:not(.hidden)) header{padding:calc(env(safe-area-inset-top) + 10px) 20px 8px}
@@ -153,9 +152,7 @@ body:has(#home:not(.hidden)) header small{font-size:13px}
 .quick-nav span{font-size:27px}
 @media(max-height:740px){.landing-space{height:23vh}.landing{gap:10px}.landing-panel{padding:12px}.quick-nav button{min-height:83px}}
 
-/* v14: full-bleed continuous reference composition */
-body:has(#home:not(.hidden)){background:#102039!important;position:relative}
-body:has(#home:not(.hidden))::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:linear-gradient(180deg,#10203900 0%,#10203900 38%,#10203977 58%,#102039 92%),url('./kb403_crane_reference_background.jpg');background-size:100% 100%,cover;background-position:center,center top;background-repeat:no-repeat}
+/* glass surfaces */
 body:has(#home:not(.hidden)) header{background:transparent!important}
 body:has(#home:not(.hidden)) main{padding-top:0}
 body:has(#home:not(.hidden)) .footer{display:none}
