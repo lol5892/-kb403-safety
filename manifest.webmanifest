@@ -1,0 +1,8 @@
+{
+  "name": "КБ-403 — Безопасная смена",
+  "short_name": "КБ-403",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0d1727",
+  "theme_color": "#101d33"
+}
