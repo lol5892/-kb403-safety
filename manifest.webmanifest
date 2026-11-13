@@ -7,10 +7,10 @@
   "theme_color": "#101d33",
   "icons": [
     {
-      "src": "icon-crane.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "kb403-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
