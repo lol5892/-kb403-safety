@@ -3,8 +3,8 @@
   "short_name": "КБ-403",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#0d1727",
-  "theme_color": "#101d33",
+  "background_color": "#101113",
+  "theme_color": "#17191b",
   "icons": [
     {
       "src": "kb403-icon-180.png",
